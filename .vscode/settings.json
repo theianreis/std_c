@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "math.h": "c"
+        "math.h": "c",
+        "recursion.C": "cpp",
+        "quantidade_de_eletirores.C": "cpp"
     }
 }
