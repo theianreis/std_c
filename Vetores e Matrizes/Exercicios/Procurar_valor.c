@@ -1,5 +1,4 @@
 
-
 #include <stdio.h>
 
 int main(){
@@ -19,8 +18,6 @@ int main(){
         }else{
             printf("Esse indice não existe no vetor\n");
         }
-        
-
         
         printf("Você deseja continuar:  (s/n)");
         scanf(" %c",&continuar);
