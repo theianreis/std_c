@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Função de busca binária
+
 int busca_binaria(int vetor[], int tamanho, int chave) {
     int inicio = 0;
     int fim = tamanho - 1;
@@ -9,15 +9,15 @@ int busca_binaria(int vetor[], int tamanho, int chave) {
         int meio = (inicio + fim) / 2;
 
         if (vetor[meio] == chave) {
-            return meio;  // Encontrado
+            return meio;  
         } else if (vetor[meio] < chave) {
-            inicio = meio + 1;  // Busca na metade direita
+            inicio = meio + 1;  
         } else {
-            fim = meio - 1;     // Busca na metade esquerda
+            fim = meio - 1;     
         }
     }
 
-    return -1;  // Não encontrado
+    return -1;  
 }
 int main() {
     int numeros[] = {2, 4, 6, 8, 10, 12, 14};

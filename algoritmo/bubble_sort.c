@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-// Função para realizar uma única passagem do bubble sort
 void bubblePass(int arr[], int n, int i) {
     if (i < n - 1) {
         if (arr[i] > arr[i + 1]) {
-            // troca os elementos
+           
             int temp = arr[i];
             arr[i] = arr[i + 1];
             arr[i + 1] = temp;
@@ -15,7 +14,7 @@ void bubblePass(int arr[], int n, int i) {
     }
 }
 
-// Função recursiva para aplicar várias passagens
+
 void bubbleSort(int arr[], int n) {
     if (n > 1) {
         bubblePass(arr, n, 0);

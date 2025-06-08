@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-// Função recursiva para calcular o fatorial
 int fatorial(int n) {
     if (n == 0 || n == 1) {
-        return 1; // Caso base
+        return 1; 
     } else {
-        return n * fatorial(n - 1); // Passo recursivo
+        return n * fatorial(n - 1); 
     }
 }
 
